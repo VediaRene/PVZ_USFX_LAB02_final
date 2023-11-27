@@ -8,6 +8,7 @@
 #include "PaFM_ZombieMinero.h"
 #include "PaFM_ZombieDepostista.h"
 #include "PaFM_ZombiePequenio.h"
+#include "PaFM_ZombieVolador.h"
 
 APaFM_Zombie* AMyPaFM_CreadorZombieMalo::ConcoctZombie(FString ZombieSKU,FVector Location)
 {
@@ -19,6 +20,9 @@ APaFM_Zombie* AMyPaFM_CreadorZombieMalo::ConcoctZombie(FString ZombieSKU,FVector
 	}
 	else if (ZombieSKU.Equals("Minero")) {
 		return GetWorld()->SpawnActor<APaFM_ZombieMinero>(APaFM_ZombieMinero::StaticClass(), Location, FRotator::ZeroRotator);
+	}
+	else if (ZombieSKU.Equals("Volador")) {
+		return GetWorld()->SpawnActor<APaFM_ZombieVolador>(APaFM_ZombieVolador::StaticClass(), Location, FRotator::ZeroRotator);
 	}
 	else if (ZombieSKU.Equals("Cono")) {
 		return GetWorld()->SpawnActor<APaFM_ZombieCono>(APaFM_ZombieCono::StaticClass(), Location, FRotator::ZeroRotator);

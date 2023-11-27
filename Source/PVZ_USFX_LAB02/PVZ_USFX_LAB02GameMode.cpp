@@ -47,7 +47,10 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	Super::BeginPlay();
 
 	
-
+	///////Desarrollar un observe que controle el porcentaje de avance de un zombie desde su aparición hasta la planta mas cercana en su carril,
+	//  considerando que cuando supere el 75% de la distancia si el zombie es de tipo A avanzara por el aire,
+	//  si es de tipo B avanzara por tierra y si es de tipo C avanzara bajo tierra hasta llegar al 25%,
+	//  donde todos cambiaran a estrategia de despliegue por tierra.
 	//////////////////////////////////PATRON ESTRATEGY////////////////////////////////////////
 
 	//AEstrategy_Main* EstretegyMain = GetWorld()->SpawnActor<AEstrategy_Main>(AEstrategy_Main::StaticClass());
@@ -80,8 +83,10 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	APaFM_CreadorZombie* CreadorZombieMalo = GetWorld()->SpawnActor<AMyPaFM_CreadorZombieMalo>(AMyPaFM_CreadorZombieMalo::StaticClass());
 
 	// creando las posiciones y  registrando nombres
-	//Zombie = CreadorZombieMalo->OrderZombie("Normal", FVector(-600.0f, 830.0f, 160.0f));
+	Zombie = CreadorZombieMalo->OrderZombie("Volador", FVector(-800.0f, 830.0f, 160.0f));
+	Zombie = CreadorZombieMalo->OrderZombie("Normal", FVector(-400.0f, 830.0f, 160.0f));
 	Zombie = CreadorZombieMalo->OrderZombie("Minero", FVector(-600.0f, 1000.0f, 160.0f));
+	
 	AEstrategyMovimientoMinero* EstrategyMovimientoMinero = GetWorld()->SpawnActor<AEstrategyMovimientoMinero>(AEstrategyMovimientoMinero::StaticClass());
 	Zombie->ArmandoEstrategia(EstrategyMovimientoMinero);
 	//Engage with the current Strategy
