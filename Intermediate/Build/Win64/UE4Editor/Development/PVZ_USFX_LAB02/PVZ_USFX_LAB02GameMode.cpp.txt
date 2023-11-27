@@ -1,0 +1,63 @@
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Pawn.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Pawn.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Zombie.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Zombie.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Planta.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Planta.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PaFM_Planta.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_Planta.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\MyPaFM_CreadorZombieMalo.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PaFM_CreadorZombie.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PaFM_Zombie.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Estrategy_Planta.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Estrategy_Planta.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_Zombie.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_CreadorZombie.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\MyPaFM_CreadorZombieMalo.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Girasol.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Girasol.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Sol.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\RandomMovement.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\RandomMovement.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Sol.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\BuPa_ConstructorEtapas.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\BuPa_OrdaZombies_Interface.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\BuPa_OrdaZombies_Interface.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\BuPa_ConstructorEtapas.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\BuPa_Etapa1_OrdaZombie.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\BuPa_Etapa1_OrdaZombie.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\BuPa_SemiOrda.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\BuPa_SemiOrda_Interface.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\BuPa_SemiOrda_Interface.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\BuPa_SemiOrda.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Planta_PaFM_Creador.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Planta_PaFM_Creador.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Planta_PaFM_Generador.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Planta_PaFM_Generador.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\EstrategyMovimientoMinero.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMovimientoMinero.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_Torre_Localizador.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_Publicador.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_Suscriptor_Interface.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Suscriptor_Interface.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Publicador.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Torre_Localizador.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_ZombieObservado.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_Habilidad_Interface.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Habilidad_Interface.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_ZombieObservado.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Estrategy_Main.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Estrategy_Main.generated.h
