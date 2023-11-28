@@ -25,6 +25,9 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EstrategyMovimientoMinero.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/EstrategyMovimientoMinero.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMovimientoMinero.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EstrategyMoviminetoNormal.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/EstrategyMoviminetoNormal.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMoviminetoNormal.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EstrategyMoviminetoVolar.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/EstrategyMoviminetoVolar.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.generated.h
@@ -109,6 +112,7 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Proyectil.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/Proyectil.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Proyectil.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02.init.gen.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h

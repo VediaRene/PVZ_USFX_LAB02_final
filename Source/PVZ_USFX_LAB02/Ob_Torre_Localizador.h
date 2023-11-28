@@ -26,9 +26,9 @@ public:
 
 public:
 	//Called when the time of this Clock Tower has changed
-	void CambiarDisparo();
+	void CambiarMovimiento();
 	//Set the time of this Clock Tower
-	void SetDisparoAtras(FString myDisparoAtras);
+	void SetMovimiento(FString myMovimiento);
 	//Return the time of this Clock Tower
-	FORCEINLINE FString GetCambiarDisparo() { return Time; };
+	FORCEINLINE FString GetCambiarMovimiento() { return Time; };
 };

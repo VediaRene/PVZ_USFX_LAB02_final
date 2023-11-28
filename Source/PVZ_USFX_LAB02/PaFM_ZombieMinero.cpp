@@ -10,7 +10,7 @@ APaFM_ZombieMinero::APaFM_ZombieMinero()
 	ZombiemirerolMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Balde Mesh"));
 	RootComponent = ZombiemirerolMesh;
 	// Load the static mesh asset
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ZombieMeshAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ZombieMeshAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_QuadPyramid.Shape_QuadPyramid'"));
 	if (ZombieMeshAsset.Succeeded())
 	{
 		ZombiemirerolMesh->SetStaticMesh(ZombieMeshAsset.Object);

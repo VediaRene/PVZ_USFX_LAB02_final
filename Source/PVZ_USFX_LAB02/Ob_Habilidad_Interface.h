@@ -23,6 +23,6 @@ class PVZ_USFX_LAB02_API IOb_Habilidad_Interface
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 
-	virtual void MovimientoDisparo() = 0;
+	virtual void MovimientoAtaque() = 0;
 
 };

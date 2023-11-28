@@ -13,14 +13,14 @@ void AOb_Torre_Localizador::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AOb_Torre_Localizador::CambiarDisparo()
+void AOb_Torre_Localizador::CambiarMovimiento()
 {
 	NotificarSuscriptores();
 }
 
-void AOb_Torre_Localizador::SetDisparoAtras(FString myDisparoAtras)
+void AOb_Torre_Localizador::SetMovimiento(FString myMovimiento)
 {
-	Time = myDisparoAtras;
-	CambiarDisparo();
+	Time = myMovimiento;
+	CambiarMovimiento();
 
 }

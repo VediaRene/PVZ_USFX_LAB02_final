@@ -12,7 +12,7 @@ APaFM_ZombieVolador::APaFM_ZombieVolador()
 	ZombieVoladorMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Balde Mesh"));
 	RootComponent = ZombieVoladorMesh;
 	// Load the static mesh asset
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ZombieMeshAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_WideCapsule.Shape_WideCapsule'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ZombieMeshAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Plane.Shape_Plane'"));
 	if (ZombieMeshAsset.Succeeded())
 	{
 		ZombieVoladorMesh->SetStaticMesh(ZombieMeshAsset.Object);

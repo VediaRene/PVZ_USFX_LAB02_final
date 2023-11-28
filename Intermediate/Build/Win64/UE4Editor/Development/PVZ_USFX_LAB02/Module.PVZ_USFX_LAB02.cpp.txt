@@ -30,6 +30,13 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\EstrategyMovimientoMinero.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMovimientoMinero.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Estrategy_Planta.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/EstrategyMovimientoMinero.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/EstrategyMoviminetoNormal.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\EstrategyMoviminetoNormal.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMoviminetoNormal.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/EstrategyMoviminetoVolar.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Girasol.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Girasol.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Girasol.generated.h
@@ -60,28 +67,27 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_Suscriptor_Interfa
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Suscriptor_Interface.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Publicador.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Ob_Suscriptor_Interface.cpp
-G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Ob_Torre_Localizador.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Ob_Torre_Localizador.h
-G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_Torre_Localizador.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_CreadorZombie.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_Planta.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PaFM_Planta.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_Planta.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Proyectil.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Proyectil.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_Zombie.cpp
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\proyectil.h
-G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Proyectil.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_ZombieBalde.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_ZombieCono.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_ZombieDepostista.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_ZombieNormal.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/PaFM_ZombiePequenio.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Planta.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Planta_PaFM_Carrinivora.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Planta_PaFM_Carrinivora.h
-G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\PaFM_Planta.h
-G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_Planta.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Planta_PaFM_Carrinivora.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Source/PVZ_USFX_LAB02/Planta_PaFM_Creador.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Planta_PaFM_Creador.h

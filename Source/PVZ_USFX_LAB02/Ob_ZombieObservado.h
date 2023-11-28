@@ -41,13 +41,13 @@ public:
 	//Called when the Plublisher changed its state, it will execute this Subscriber routine
 		virtual void Actualizar(class AOb_Publicador* Publicador) override;
 	//Execute this Subscriber routine
-	virtual void MovimientoDisparo();
+	virtual void MovimientoAtaque();
 	//Set the Clock Tower of this Subscriber
 	void SetOb_Torre_Localizador(AOb_Torre_Localizador* myOb_Torre_Localizador);
 
 	void SetZombie(TArray<AActor*> zombie);
 
-	bool MoverMienro;
+	bool MoverMinero;
 	bool MoverVolador;
 	
 };

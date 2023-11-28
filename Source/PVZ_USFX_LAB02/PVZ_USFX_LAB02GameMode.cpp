@@ -320,7 +320,7 @@ void APVZ_USFX_LAB02GameMode::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 //////////////////////////////////////OBSERVER////////////////////////////////////////
 	
-	Ob_Torre_Localizador->SetDisparoAtras("ZombieATierra");
+	Ob_Torre_Localizador->SetMovimiento("ZombieATierra");
 	//if (ZombieMinero->GetActorLocation().Y>= -200 && estado01) {
 	//
 	//	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Disparo Adelante")));

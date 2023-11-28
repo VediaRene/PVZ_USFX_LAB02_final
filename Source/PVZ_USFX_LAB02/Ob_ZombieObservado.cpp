@@ -18,7 +18,7 @@ AOb_ZombieObservado::AOb_ZombieObservado()
 
 	disparo = true;
 	DarEstrategia = true;
-	MoverMienro = true;
+	MoverMinero = true;
 	MoverVolador = true;
 }
 
@@ -45,10 +45,10 @@ void AOb_ZombieObservado::Destroyed()
 
 void AOb_ZombieObservado::Actualizar(AOb_Publicador* Publicador)
 {
-	MovimientoDisparo();
+	MovimientoAtaque();
 }
 
-void AOb_ZombieObservado::MovimientoDisparo()
+void AOb_ZombieObservado::MovimientoAtaque()
 {
 	
 	//Mensaje de error si el zombie no existe
@@ -57,11 +57,11 @@ void AOb_ZombieObservado::MovimientoDisparo()
 		return;
 	}
 	//Get the current time of the Clock Tower
-	FString Estado = Ob_Torre_Localizador->GetCambiarDisparo();
+	FString Estado = Ob_Torre_Localizador->GetCambiarMovimiento();
 
 	if (!Estado.Compare("ZombieATierra"))
 	{
-		//Ejecuta sus acciones estando calmado
+		
 		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El estado  %s, La Planta guiando Zombies a tierra "), *Estado));
 		if (DarEstrategia)
 		{
@@ -84,10 +84,10 @@ void AOb_ZombieObservado::MovimientoDisparo()
 			ZombieVolador->SetActorLocation(ZombieVolador->GetActorLocation() - FVector(0.0f, 0.0f, 300));
 			MoverVolador = false;
 		}
-		if (ZombieMinero->GetActorLocation().Y <= 200.0f && MoverMienro)
+		if (ZombieMinero->GetActorLocation().Y <= 200.0f && MoverMinero)
 		{
 			ZombieMinero->SetActorLocation(ZombieMinero->GetActorLocation() + FVector(0.0f, 0.0f, 160));
-			MoverMienro = false;
+			MoverMinero = false;
 		}
 	}
 	
