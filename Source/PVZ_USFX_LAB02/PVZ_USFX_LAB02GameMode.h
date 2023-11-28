@@ -63,8 +63,15 @@ public:
 
 	class AOb_Torre_Localizador* Ob_Torre_Localizador;
 	class AOb_ZombieObservado* Ob_ZombieObservado;
-	class APaFM_Zombie* Zombie;
+	class AOb_ZombieObservado* Ob_ZombieObservado01;
+	class AOb_ZombieObservado* Ob_ZombieObservado02;
+
+	class APaFM_Zombie* ZombieMinero;
+	class APaFM_Zombie* ZombieNormal;
+	class APaFM_Zombie* ZombieVolador;
 	bool estado01;
 	bool estado02;
+
+	TArray<AActor*> ArrayZombie;
 };
 

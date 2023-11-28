@@ -61,3 +61,5 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Ob_ZombieObservado.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Estrategy_Main.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Estrategy_Main.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.generated.h

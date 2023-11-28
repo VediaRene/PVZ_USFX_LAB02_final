@@ -16,8 +16,9 @@ APaFM_ZombieNormal::APaFM_ZombieNormal()
 		ZombieNormalMesh->SetStaticMesh(ZombieMeshAsset.Object);
 	}
 
-	MovementSpeed = 0.2f;
-	vida = 80;
+	//MovementSpeed = 0.2f;
+	VelocityBrickBoss = 10.0f;
+	vida = 150;
 }
 
 void APaFM_ZombieNormal::BeginPlay()

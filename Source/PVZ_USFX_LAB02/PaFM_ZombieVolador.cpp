@@ -18,9 +18,10 @@ APaFM_ZombieVolador::APaFM_ZombieVolador()
 		ZombieVoladorMesh->SetStaticMesh(ZombieMeshAsset.Object);
 	}
 
-	MovementSpeed = 0.1f;
+	//MovementSpeed = 0.2f;
+	VelocityBrickBoss = 10.0f;
 
-	vida = 60;
+	vida = 100;
 }
 
 void APaFM_ZombieVolador::BeginPlay()

@@ -25,6 +25,9 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EstrategyMovimientoMinero.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/EstrategyMovimientoMinero.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMovimientoMinero.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EstrategyMoviminetoVolar.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/EstrategyMoviminetoVolar.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Girasol.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/Girasol.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02\Planta.h
@@ -78,6 +81,9 @@ G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PaFM_ZombiePequenio.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/PaFM_ZombiePequenio.h
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_ZombiePequenio.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PaFM_ZombieVolador.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/PaFM_ZombieVolador.h
+G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PaFM_ZombieVolador.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Planta.gen.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02DEScargado/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Planta_PaFM_Carrinivora.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02DEScargado\Source\PVZ_USFX_LAB02/Planta_PaFM_Carrinivora.h

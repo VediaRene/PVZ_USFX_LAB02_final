@@ -16,6 +16,6 @@ APaFM_ZombieMinero::APaFM_ZombieMinero()
 		ZombiemirerolMesh->SetStaticMesh(ZombieMeshAsset.Object);
 	}
 
-	VelocityBrickBoss = 12.0f;
+	VelocityBrickBoss = 10.0f;
 	vida = 100;
 }

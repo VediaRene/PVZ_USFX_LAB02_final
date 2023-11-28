@@ -25,7 +25,10 @@ private:
 	UPROPERTY()
 	AOb_Torre_Localizador* Ob_Torre_Localizador;
 public:
-	class APaFM_Zombie* myZombie;
+	class APaFM_Zombie* ZombieMinero;
+	class APaFM_Zombie* ZombieVolador;
+	class APaFM_Zombie* ZombieNormal;
+	bool DarEstrategia;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -42,8 +45,9 @@ public:
 	//Set the Clock Tower of this Subscriber
 	void SetOb_Torre_Localizador(AOb_Torre_Localizador* myOb_Torre_Localizador);
 
-	void SetZombie(AActor* zombie);
+	void SetZombie(TArray<AActor*> zombie);
 
-
+	bool MoverMienro;
+	bool MoverVolador;
 	
 };

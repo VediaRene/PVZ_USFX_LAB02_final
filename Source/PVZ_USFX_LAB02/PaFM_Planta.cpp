@@ -50,8 +50,8 @@ void APaFM_Planta::BeginPlay()
 {
 	Super::BeginPlay();
 
-	GetWorldTimerManager().SetTimer(MineroSalidaTimerHandle, this, &APaFM_Planta::noDisparar, 2.0f, false);
-	GetWorldTimerManager().SetTimer(MineroEntradaTimerHandle, this, &APaFM_Planta::disparar, 10.0f, true);
+	/*GetWorldTimerManager().SetTimer(MineroSalidaTimerHandle, this, &APaFM_Planta::noDisparar, 2.0f, false);
+	GetWorldTimerManager().SetTimer(MineroEntradaTimerHandle, this, &APaFM_Planta::disparar, 10.0f, true);*/
 
 	
 }

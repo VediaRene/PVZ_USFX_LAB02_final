@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_USFX_LAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E66E1597-D2AB-44E0-AFCF-39BD1C95BBDE}</UniqueIdentifier>
+      <UniqueIdentifier>{F57262B5-8B03-4362-BE80-A4092C497089}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_USFX_LAB02.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\SegundoParcialSource.rar" />
     <None Include="..\..\Source.rar" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FBC9A793-D075-41C6-811A-436C51A908AB}</UniqueIdentifier>
+      <UniqueIdentifier>{1A70D7D4-3CF5-4394-8208-4F1B51CA9614}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_USFX_LAB02">
-      <UniqueIdentifier>{8462DBF3-9A73-47E9-9566-38AA61E396C8}</UniqueIdentifier>
+      <UniqueIdentifier>{7CFD0C67-FBB0-4FC1-8C0D-9A7ECCDC0274}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\BuPa_ConstructorEtapas.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
@@ -70,6 +70,12 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\EstrategyMovimientoMinero.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\EstrategyMoviminetoNormal.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\EstrategyMoviminetoNormal.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\EstrategyMoviminetoVolar.cpp">

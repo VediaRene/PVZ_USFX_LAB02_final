@@ -38,7 +38,7 @@ void AEstrategyMovimientoMinero::atacar(AActor* zombie)
 	GetWorldTimerManager().SetTimer(MineroEntradaTimerHandle, this, &AEstrategyMovimientoMinero::moverAbajo, 2.0f, false);
 
 	// Configura un temporizador para la salida después de 4 segundos (1 segundo de entrada + 3 segundos bajo tierra)
-	GetWorldTimerManager().SetTimer(MineroSalidaTimerHandle, this, &AEstrategyMovimientoMinero::moverArriba, 0.5f, true);
+	//GetWorldTimerManager().SetTimer(MineroSalidaTimerHandle, this, &AEstrategyMovimientoMinero::moverArriba, 0.5f, true);
 }
 
 void AEstrategyMovimientoMinero::moverAbajo()

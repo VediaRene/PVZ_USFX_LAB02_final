@@ -29,6 +29,7 @@
 #include "Estrategy_Main.h"
 #include "PaFM_Zombie.h"
 #include "EstrategyMovimientoMinero.h"
+#include "EstrategyMoviminetoVolar.h"
 
 
 APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
@@ -47,10 +48,12 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	Super::BeginPlay();
 
 	
-	///////Desarrollar un observe que controle el porcentaje de avance de un zombie desde su aparición hasta la planta mas cercana en su carril,
-	//  considerando que cuando supere el 75% de la distancia si el zombie es de tipo A avanzara por el aire,
-	//  si es de tipo B avanzara por tierra y si es de tipo C avanzara bajo tierra hasta llegar al 25%,
-	//  donde todos cambiaran a estrategia de despliegue por tierra.
+	//Desarrollar un observe que controle el porcentaje de avance de un zombie desde su aparición hasta la planta mas cercana en su carril,
+	//considerando que cuando supere el 75% de la distancia si el zombie es de tipo A avanzara por el aire,
+	//si es de tipo B avanzara por tierra y si es de tipo C avanzara bajo tierra hasta llegar al 25%,
+	//donde todos cambiaran a estrategia de despliegue por tierra.
+	
+
 	//////////////////////////////////PATRON ESTRATEGY////////////////////////////////////////
 
 	//AEstrategy_Main* EstretegyMain = GetWorld()->SpawnActor<AEstrategy_Main>(AEstrategy_Main::StaticClass());
@@ -83,14 +86,23 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	APaFM_CreadorZombie* CreadorZombieMalo = GetWorld()->SpawnActor<AMyPaFM_CreadorZombieMalo>(AMyPaFM_CreadorZombieMalo::StaticClass());
 
 	// creando las posiciones y  registrando nombres
-	Zombie = CreadorZombieMalo->OrderZombie("Volador", FVector(-800.0f, 830.0f, 160.0f));
-	Zombie = CreadorZombieMalo->OrderZombie("Normal", FVector(-400.0f, 830.0f, 160.0f));
-	Zombie = CreadorZombieMalo->OrderZombie("Minero", FVector(-600.0f, 1000.0f, 160.0f));
+	ZombieVolador = CreadorZombieMalo->OrderZombie("Volador", FVector(-800.0f, 1000.0f, 160.0f));
+	ArrayZombie.Add(ZombieVolador);
+	ZombieNormal = CreadorZombieMalo->OrderZombie("Normal", FVector(-400.0f, 1000.0f, 160.0f));
+	ArrayZombie.Add(ZombieNormal);
+	ZombieMinero = CreadorZombieMalo->OrderZombie("Minero", FVector(-600.0f, 1000.0f, 160.0f));
+	ArrayZombie.Add(ZombieMinero);
 	
-	AEstrategyMovimientoMinero* EstrategyMovimientoMinero = GetWorld()->SpawnActor<AEstrategyMovimientoMinero>(AEstrategyMovimientoMinero::StaticClass());
-	Zombie->ArmandoEstrategia(EstrategyMovimientoMinero);
-	//Engage with the current Strategy
-	Zombie->ejecutarEstrategia(Zombie);
+	//AEstrategyMovimientoMinero* EstrategyMovimientoMinero = GetWorld()->SpawnActor<AEstrategyMovimientoMinero>(AEstrategyMovimientoMinero::StaticClass());
+	//ZombieMinero->ArmandoEstrategia(EstrategyMovimientoMinero);
+	////Engage with the current Strategy
+	//ZombieMinero->ejecutarEstrategia(ZombieMinero);
+	
+
+	//AEstrategyMoviminetoVolar* EstrategyMoviminetoVolar = GetWorld()->SpawnActor<AEstrategyMoviminetoVolar>(AEstrategyMoviminetoVolar::StaticClass());
+	//ZombieVolador->ArmandoEstrategia(EstrategyMoviminetoVolar);
+	////Engage with the current Strategy
+	//ZombieVolador->ejecutarEstrategia(ZombieVolador);
 	 
 	//////////////////////////////////////////PATRON OBSERVER////////////////////////////////////////
 
@@ -99,8 +111,24 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//Spawn the first Subscriber and set its Clock Tower
 	Ob_ZombieObservado = GetWorld()->SpawnActor<AOb_ZombieObservado>(AOb_ZombieObservado::StaticClass(), FVector(-600.0f, -200.0f, 160.0f), FRotator::ZeroRotator);
 	Ob_ZombieObservado->SetOb_Torre_Localizador(Ob_Torre_Localizador);
-	Ob_ZombieObservado->SetZombie(Zombie);
+	Ob_ZombieObservado->SetZombie(ArrayZombie);
 
+
+	//Spawn the first Subscriber and set its Clock Tower
+	Ob_ZombieObservado01 = GetWorld()->SpawnActor<AOb_ZombieObservado>(AOb_ZombieObservado::StaticClass(), FVector(-400.0f, -200.0f, 160.0f), FRotator::ZeroRotator);
+	Ob_ZombieObservado01->SetOb_Torre_Localizador(Ob_Torre_Localizador);
+	Ob_ZombieObservado01->SetZombie(ArrayZombie);
+
+
+
+	//Spawn the first Subscriber and set its Clock Tower
+	Ob_ZombieObservado02 = GetWorld()->SpawnActor<AOb_ZombieObservado>(AOb_ZombieObservado::StaticClass(), FVector(-800.0f, -200.0f, 160.0f), FRotator::ZeroRotator);
+	Ob_ZombieObservado02->SetOb_Torre_Localizador(Ob_Torre_Localizador);
+	Ob_ZombieObservado02->SetZombie(ArrayZombie);
+
+
+
+	//Ob_Torre_Localizador->SetDisparoAtras("AtaqueNormal");
 
 	//Ob_Torre_Localizador->SetDisparoAtras("AtaqueNormal");
 	//Ob_Torre_Localizador->SetDisparoAtras("AtaqueAtras");
@@ -291,18 +319,20 @@ void APVZ_USFX_LAB02GameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 //////////////////////////////////////OBSERVER////////////////////////////////////////
-	if (Zombie->GetActorLocation().Y>= -200 && estado01) {
 	
-		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Disparo Adelante")));
-		Ob_Torre_Localizador->SetDisparoAtras("AtaqueNormal");
-		estado01 = false;
-	}
-	if (Zombie->GetActorLocation().Y <= -200 && estado02) {
+	Ob_Torre_Localizador->SetDisparoAtras("ZombieATierra");
+	//if (ZombieMinero->GetActorLocation().Y>= -200 && estado01) {
+	//
+	//	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Disparo Adelante")));
+	//	Ob_Torre_Localizador->SetDisparoAtras("AtaqueNormal");
+	//	estado01 = false;
+	//}
+	//if (ZombieMinero->GetActorLocation().Y <= -200 && estado02) {
 
-		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Disparo Atras")));
-		Ob_Torre_Localizador->SetDisparoAtras("AtaqueAtras");
-		estado02 = false;
-	}
+	//	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Disparo Atras")));
+	//	Ob_Torre_Localizador->SetDisparoAtras("AtaqueAtras");
+	//	estado02 = false;
+	//}
 //////////////////////////////////////FIN OBSERVER////////////////////////////////////////
 
 	TiempoTranscurrido += DeltaTime;
